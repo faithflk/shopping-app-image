@@ -1,4 +1,4 @@
-  ami_id     = "ami-06ca42cd92f2bde43"
+  ami_id     = "ami-0ba259e664698cbfc"
   instance_type     = "t2.micro"
   project_env     = "dev"
   project_name     = "shopping"
