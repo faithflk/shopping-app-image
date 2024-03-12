@@ -40,9 +40,3 @@ jobs:
         run: packer build -var-file="prod.pkrvars.hcl" .
         working-directory: ./packer/
 
-      - name: "Notify Prod Deploy Job"
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{secrets.PAT}}
-          repository: faithflk/shopping-app-infra
-          event-type: prod-deploy-event  #any string kodukkam
