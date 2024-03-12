@@ -39,4 +39,3 @@ jobs:
       - name: "packer build"
         run: packer build -var-file="prod.pkrvars.hcl" .
         working-directory: ./packer/
-
